@@ -10,8 +10,4 @@ int main()
 	cin >> y;
 	z = 1;
 
-	for (int m = 2; m <= 10; m++) {
-		z *= log10(m * y);
-	}
-	z = z + 3 * sin(y);
 }
