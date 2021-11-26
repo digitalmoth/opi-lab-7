@@ -6,15 +6,6 @@
 using namespace std;
 int main()
 {
-	double y, x;
-	cin >> x;
-	y = 0;
-	for (int k = 1; k <= 10; k++) {
-		y += sin(k * x);
-	}
-	y = (y + 2 * x) / (pow(x, 2) + 5);
-	cout << y;
-	//---------------------------------
 	double z, y;
 	cin >> y;
 	z = 1;
