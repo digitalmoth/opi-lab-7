@@ -6,6 +6,8 @@
 using namespace std;
 int main()
 {
+	cout << "hello from old commit";
+	
 	double z, y;
 	cin >> y;
 	z = 1;
